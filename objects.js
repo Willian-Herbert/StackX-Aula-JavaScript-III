@@ -2,7 +2,7 @@
 function calcularRetangulo(retangulo) {
     let perimetro = ((retangulo.largura * 2) + (retangulo.altura * 2))
     let area = (retangulo.largura * retangulo.altura)
-    return `Perímetro: ${perimetro} Área: ${area}`
+    return `area: ${area}, perimetro: ${perimetro}`
 }
 
 // Verifica se uma pessoa é maior de idade

@@ -5,7 +5,7 @@ function convertToInt(string) {
 
 // Converte um número inteiro para uma string
 function convertToString(number) {
-    return toString(number)
+    return number.toString()
 }
 
 // Converte um valor para um booleano
